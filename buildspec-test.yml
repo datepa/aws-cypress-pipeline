@@ -9,4 +9,5 @@ phases:
 
   build:
     commands:
-      - npx tsc --noEmit
+      - npx cypress verify
+      - npx cypress run
